@@ -5,9 +5,9 @@ Perl bindings for the GStreamer-0.10 multimedia framework.
 Runtime requirements:
   cygwin-1.5.25-15
   libglib2.0_0-2.18.4-1
-  libgstreamer0.10_0-0.10.21-2
+  libgstreamer0.10_0-0.10.22-2
   perl-5.10.0-5
-  perl-Glib-1.200-1
+  perl-Glib-1.201-1
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -27,15 +27,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-GStreamer-0.14-X-src.tar.bz2
+  unpack perl-GStreamer-0.15-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-GStreamer-0.14-X.cygport all
+  cygport ./perl-GStreamer-0.15-X.cygport all
 
 This will create:
-  /usr/src/perl-GStreamer-0.14-X-src.tar.bz2
-  /usr/src/perl-GStreamer-0.14-X.tar.bz2
+  /usr/src/perl-GStreamer-0.15-X-src.tar.bz2
+  /usr/src/perl-GStreamer-0.15-X.tar.bz2
 
 -------------------------------------------
 
@@ -121,11 +121,11 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/GStreamer/TypeFindFactory.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/GStreamer/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/GStreamer/GStreamer.dll
-  /usr/share/doc/perl-GStreamer-0.14/ChangeLog
-  /usr/share/doc/perl-GStreamer-0.14/LICENSE
-  /usr/share/doc/perl-GStreamer-0.14/NEWS
-  /usr/share/doc/perl-GStreamer-0.14/README
-  /usr/share/doc/perl-GStreamer-0.14/TODO
+  /usr/share/doc/perl-GStreamer-0.15/ChangeLog
+  /usr/share/doc/perl-GStreamer-0.15/LICENSE
+  /usr/share/doc/perl-GStreamer-0.15/NEWS
+  /usr/share/doc/perl-GStreamer-0.15/README
+  /usr/share/doc/perl-GStreamer-0.15/TODO
   /usr/share/man/man3/GStreamer.3pm.gz
   /usr/share/man/man3/GStreamer.Bin.3pm.gz
   /usr/share/man/man3/GStreamer.Buffer.3pm.gz
@@ -201,6 +201,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.15-1 -----
+Version bump.
 
 ----- version 0.14-1 -----
 Version bump.
