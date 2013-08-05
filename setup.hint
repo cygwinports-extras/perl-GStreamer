@@ -1,4 +1,0 @@
-category: Perl Audio
-requires: libglib2.0_0 libgstreamer0.10_0 perl perl-Glib
-sdesc: "Perl bindings for the GStreamer-0.10 multimedia framework"
-ldesc: "Perl bindings for the GStreamer-0.10 multimedia framework"

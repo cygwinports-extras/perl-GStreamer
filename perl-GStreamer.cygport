@@ -1,0 +1,8 @@
+inherit gtk2-perl
+
+NAME="perl-GStreamer"
+VERSION=0.18
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl bindings for the GStreamer-0.10 multimedia framework"
+DESCRIPTION="Perl bindings for the GStreamer-0.10 multimedia framework"
